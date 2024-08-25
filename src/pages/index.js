@@ -12,7 +12,9 @@ import WorkspacePremiumIcon from '@mui/icons-material/WorkspacePremium';
 import { useEffect, useState } from "react";
 export default function Home() {
   const [isSticky, setIsSticky] = useState(false);
-
+  const openNewURL=(newURL)=> {
+    window.open(newURL, "_blank");
+  }
   useEffect(() => {
     const handleScroll = () => {
       const header = document.querySelector(".header");
@@ -24,9 +26,7 @@ export default function Home() {
         setIsSticky(false);
       }
     };
-    const openNewURL=(newURL)=> {
-      window.open(newURL, "_blank");
-    }
+   
 
     window.addEventListener('scroll', handleScroll);
     return () => {
