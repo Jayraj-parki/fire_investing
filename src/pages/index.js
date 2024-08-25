@@ -158,7 +158,7 @@ export default function Home() {
         </div>
 
         <div className={style.services + " row col-12 mx-auto py-5 p-3"}>
-          <div className="row col-12 mx-auto text-center text-light"><h2 className="h4 border-bottom col-auto px-5 mx-auto pb-2">Our services</h2></div>
+          <div className="row col-12 mx-auto text-center text-light"><h2 className="h2 border-bottom col-auto px-md-5 mx-auto pb-2">Our services</h2></div>
           <div className="row col-12 mx-auto d-flex justify-content-around py-5">
             {
               data.map((value, index) => {
@@ -175,7 +175,7 @@ export default function Home() {
         </div>
 
         <div className={style.why_to_choose_us + " row col-12 mx-auto py-5  p-3"}>
-          <div className="row col-12 mx-auto text-center text-light"><h1 className="h3 border-bottom col-auto px-5 mx-auto pb-2">Why to choose us</h1></div>
+          <div className="row col-12 mx-auto text-center text-light"><h1 className="h2 border-bottom col-auto px-md-5 mx-auto pb-2">Why to choose us</h1></div>
           <div className="row col-12 mx-auto d-flex justify-content-around p-md-5">
             {
               why_to_choose_us.map((value, index) => {
@@ -201,7 +201,7 @@ export default function Home() {
           </div>
         </div>
         <div className={style.commitment + " row col-12 mx-auto py-5  p-3"}>
-          <div className="row col-12 mx-auto text-center text-light"><h1 className="h3 border-bottom col-auto px-5 mx-auto pb-2">Our commitment to you          </h1></div>
+          <div className="row col-12 mx-auto text-center text-light"><h1 className="h2 border-bottom col-auto px-md-5 mx-auto pb-2">Our commitments to you</h1></div>
           <div className="row col-12 mx-auto d-flex justify-content-around p-md-5">
             {
               commitment.map((value, index) => {
