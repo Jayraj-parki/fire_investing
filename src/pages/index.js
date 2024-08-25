@@ -126,8 +126,8 @@ export default function Home() {
         <div className={style.banner + ` row col-12 pt-3 mx-auto d-flex justify-content-around `}>
           <div className={style.left + ` col-sm-10 col-xl-6 p-3  d-flex flex-column `}>
             <div className="mb-auto  text-sm-start">
-              <h3 className="h1">Discover new trading horizons</h3>
-              <h3 className="h3">with <span>NISM Certiifed</span> analysts</h3>
+              <h3 className="h1">Discover new trading horizons with</h3>
+              <h3 className="h3"><span>NISM Certiifed</span> analysts</h3>
             </div>
             <div className="mb-auto  text-start">
               <p className="h5 pt-4  text-start mb-4 mb-sm-0 ">Join out Telegram Channel for execlusive Stock Market expertise</p>
