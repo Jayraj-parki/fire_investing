@@ -228,10 +228,10 @@ export default function Home() {
           </div>
         </div>
         <div className={style.contact + " row col-12 mx-auto pt-5  p-3"}>
-          <div className={style.card + " col-sm-6 col-md-4 card p-4  my-2 border-0"} >
-            <img src={'/images/logo.webp'} className="card-img-top mx-auto rounded-pill" alt="..." />
-            <div className="card-body">
-              <h3 className="text-center text-light mb-4  ">Boost Your Trading Success!</h3>
+          <div className={style.card + " col-sm-6 col-md-4 card p-md-4 p-0  my-2 border-0"} >
+            <img src={'/images/logo.webp'} className="card-img-top mx-auto rounded-pill p-0" alt="..." />
+            <div className="card-body  p-0 m-0">
+              <h3 className="text-center text-light mb-4  p-0">NISM Certified - Learn Before You Invest </h3>
             </div>
           </div>
           <div className={style.card + " col-sm-6 col-md-4  py-4  my-2"} >
