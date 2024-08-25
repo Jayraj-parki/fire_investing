@@ -24,6 +24,9 @@ export default function Home() {
         setIsSticky(false);
       }
     };
+    const openNewURL=(newURL)=> {
+      window.open(newURL, "_blank");
+    }
 
     window.addEventListener('scroll', handleScroll);
     return () => {
@@ -115,7 +118,7 @@ export default function Home() {
               <h2 className="col-auto text-light px-sm-2 my-auto ">Fire Investing</h2>
             </div>
             <div className={style.logo + ` col-auto mt-sm-0 my-auto`}>
-              <Button className="text-light px-3 "><TelegramIcon className="text-light" />Join now</Button>
+              <Button onClick={()=>openNewURL('https://t.me/fireinvestingofficials')} className="text-light px-3 "><TelegramIcon className="text-light" />Join now</Button>
             </div>
           </div>
         </div>
@@ -139,7 +142,7 @@ export default function Home() {
               <img className="d-block rounded-5 " src={'/images/logo.webp'} alt="..." />
             </div>
             <div className={style.telegram + ` col-auto  d-flex   mx-auto`}>
-              <Button className=" col-auto   px-3 mx-auto"><TelegramIcon className={style.TelegramIcon + "  mx-2 rounded-pill p-1"} /> Join our free Telegram</Button>
+              <Button onClick={()=>openNewURL('https://t.me/fireinvestingofficials')} className=" col-auto   px-3 mx-auto"><TelegramIcon className={style.TelegramIcon + "  mx-2 rounded-pill p-1"} /> Join our free Telegram</Button>
             </div>
           </div>
         </div>
@@ -149,7 +152,7 @@ export default function Home() {
               <h3 className="text-light">Join our telegram to make Big Profits</h3>
             </div>
             <div className={style.logo + ` col-auto mx-auto mx-sm-0`}>
-              <Button className="text-light px-3 "><TelegramIcon className="text-light" />Join now</Button>
+              <Button onClick={()=>openNewURL('https://t.me/fireinvestingofficials')} className="text-light px-3 "><TelegramIcon className="text-light" />Join now</Button>
             </div>
           </div>
         </div>
@@ -193,7 +196,7 @@ export default function Home() {
               <h3 className="text-light">Daily live stock update on Telegram</h3>
             </div>
             <div className={style.logo + ` col-auto mx-auto mx-sm-0 `}>
-              <Button className="text-light px-3 "><TelegramIcon className="text-light" />Join now</Button>
+              <Button onClick={()=>openNewURL('https://t.me/fireinvestingofficials')} className="text-light px-3 "><TelegramIcon className="text-light" />Join now</Button>
             </div>
           </div>
         </div>
@@ -220,7 +223,7 @@ export default function Home() {
               <h3 className="text-light">Boost Your Trading Success!</h3>
             </div>
             <div className={style.logo + ` col-auto mx-auto mx-md-0`}>
-              <Button className="text-light px-3 "><TelegramIcon className="text-light" />Join now</Button>
+              <Button onClick={()=>openNewURL('https://t.me/fireinvestingofficials')} className="text-light px-3 "><TelegramIcon className="text-light" />Join now</Button>
             </div>
           </div>
         </div>
@@ -258,16 +261,16 @@ export default function Home() {
             </div>
             <div className="row col-12 mx-auto p-0">
               <div className="col-auto my-auto p-0">
-                <TelegramIcon className={style.phoneIcon + "  mx-2 rounded-pill p-1"}></TelegramIcon>
+                <TelegramIcon onClick={()=>openNewURL('https://t.me/fireinvestingofficials')} className={style.phoneIcon + "  mx-2 rounded-pill p-1"}></TelegramIcon>
               </div>
               <div className="col-auto my-auto p-0">
-                <InstagramIcon className={style.phoneIcon + "  mx-2 rounded-pill p-1"}></InstagramIcon>
+                <InstagramIcon onClick={()=>openNewURL('https://www.instagram.com/fire_investing_official?igsh=dDB1YTI0cm94NWcw')} className={style.phoneIcon + "  mx-2 rounded-pill p-1"}></InstagramIcon>
               </div>
               <div className="col-auto my-auto p-0">
-                <FacebookRoundedIcon className={style.phoneIcon + "  mx-2 rounded-pill p-1"}></FacebookRoundedIcon>
+                <FacebookRoundedIcon onClick={()=>openNewURL('https://www.facebook.com/people/FIRE-Investing-Offical/61563773790848/?mibextid=ZbWKwL')}  className={style.phoneIcon + "  mx-2 rounded-pill p-1"}></FacebookRoundedIcon>
               </div>
               <div className="col-auto my-auto p-0">
-                <YouTubeIcon className={style.phoneIcon + "  mx-2 rounded-pill p-1"}></YouTubeIcon>
+                <YouTubeIcon onClick={()=>openNewURL()} className={style.phoneIcon + "  mx-2 rounded-pill p-1"}></YouTubeIcon>
               </div>
 
             </div>
@@ -278,7 +281,7 @@ export default function Home() {
             <p className=" col-12 mt-2 mx-auto text-light text-center">© 2024 FIRE Investing. All Rights Reserved.  </p>
           </div>
         </div>
-        <div className={style.whatsappIcon + " p-2 rounded-pill  d-flex "} >
+        <div className={style.whatsappIcon + " px-2 py-1 rounded-1  d-flex "} >
           <TelegramIcon className={style.TeleIcon + "  m-auto p-1 rounded-pill "}></TelegramIcon>
           <p className={style.msg + " m-auto px-2 h5 text-light  "}>Join Telegram for free</p>
         </div>
