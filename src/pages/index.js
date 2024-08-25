@@ -159,7 +159,7 @@ export default function Home() {
 
         <div className={style.services + " row col-12 mx-auto py-5 p-3"}>
           <div className="row col-12 mx-auto text-center text-light"><h2 className="h4 border-bottom col-auto px-5 mx-auto pb-2">Our services</h2></div>
-          <div className="row col-12 mx-auto d-flex justify-content-around p-5">
+          <div className="row col-12 mx-auto d-flex justify-content-around py-5">
             {
               data.map((value, index) => {
                 return <div className={style.card + " col-6 col-sm-5 col-md-4 col-xl-3 col-xxl-2 card p-0 mx-sm-1 my-2"} >
