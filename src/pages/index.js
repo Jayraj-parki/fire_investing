@@ -146,10 +146,10 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className={style.headerOuter2 + `  row col-12  p-0 py-1 m-0 mx-auto`}>
-          <div className={style.headerInner2 + ` row  p-0 col-12 col-sm-10 m-0 mx-auto d-flex   justify-content-between `}>
+        <div className={style.headerOuter2 + `  row col-12  p-0 py-1 py-sm-2 m-0 mx-auto`}>
+          <div className={style.headerInner2 + ` row  p-0 col-11 col-sm-10 m-0 mx-auto d-flex   justify-content-between `}>
             <div className={style.websiteName + ` col-auto p-0 m-0 `}>
-              <h3 className="text-light">Join our telegram to make Big Profits</h3>
+              <h3 className="text-light">Join our Telegram to make Big Profits</h3>
             </div>
             <div className={style.logo + ` col-auto mx-auto mx-sm-0 p-0` }>
               <Button onClick={()=>openNewURL('https://t.me/fireinvestingofficials')} className="text-light px-3 "><TelegramIcon className="text-light" />Join now</Button>
