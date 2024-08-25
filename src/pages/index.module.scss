@@ -1,0 +1,316 @@
+@keyframes smoothInfiniteAnimation {
+  0% {
+    box-shadow: rgb(255, 255, 255) 0px 4px 18px;
+  }
+  50% {
+    box-shadow: rgb(179, 0, 255) 0px 4px 18px;
+  }
+  100% {
+    box-shadow: rgb(255, 255, 255) 0px 4px 18px;
+  }
+}
+@keyframes increaseWidth {
+  0% {
+    width: 0px;
+  }
+  20% {
+    width: 20%;
+  }
+  40% {
+    width: 40%;
+  }
+  60% {
+    width: 60%;
+  }
+  80% {
+    width: 80%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+.page {
+  button {
+    transition: all 0.2s ease-in-out;
+    &:hover {
+      border: 0;
+      transform: scale(1.1);
+    }
+  }
+}
+.custom_gradient {
+  //   position: fixed;
+  //   top: 0;
+  //   width: 100%;
+  //   z-index: 1000;
+  // height: 60px;
+  background: rgb(254, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(254, 0, 0, 1) 0%,
+    rgba(253, 70, 29, 1) 29%,
+    rgba(228, 69, 252, 1) 98%
+  );
+  padding: 0;
+  p {
+    // padding: 2px;
+    font-size: large;
+    font-size: 20px;
+  }
+}
+.headerOuter,
+.headerFixedOuter {
+  background-color: #130f40;
+  height: 100px;
+  .headerInner {
+    font-style: italic;
+    font-weight: 900;
+    .logo {
+      button {
+        background: rgb(1, 140, 255);
+        text-transform: capitalize;
+        font-size: 18px;
+        border: 0;
+        font-weight: 700;
+      }
+    }
+    .websiteName {
+      img {
+        height: 54px;
+        width: 54px;
+        object-fit: cover;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+    }
+  }
+}
+.headerFixedOuter {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  box-shadow: rgba(255, 255, 255, 0.544) 3px 0px 2px;
+}
+.headerPlaceholder {
+  height: 100px;
+}
+.headerOuter2 {
+  background: rgb(242, 99, 222);
+  background: linear-gradient(
+    90deg,
+    rgba(242, 99, 222, 1) 0%,
+    rgba(242, 24, 123, 1) 48%,
+    rgba(209, 0, 255, 1) 100%
+  );
+  .headerInner2 {
+    font-weight: 900;
+    .logo {
+      button {
+        background: rgb(1, 140, 255);
+        text-transform: capitalize;
+        font-size: 18px;
+        border: 0;
+        font-weight: 700;
+      }
+    }
+  }
+}
+
+.banner {
+  background-color: #090444;
+  text-align: start;
+  color: white;
+  .left {
+    .cert {
+      background-color: white;
+      color: #090444;
+    }
+  }
+  h3 {
+    span {
+      color: #ff9f43;
+    }
+  }
+  p {
+    text-align: justify;
+  }
+  .imageContainer {
+    img {
+      object-fit: cover;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      //   filter: brightness(40%);
+      height: 400px;
+      width: 400px;
+    }
+  }
+  .right {
+    .telegram {
+      transform: translateY(-20px);
+      button {
+        box-shadow: rgb(255, 255, 255) 0px 4px 18px;
+        color: #5f27cd;
+        text-transform: capitalize;
+        font-size: 18px;
+        background-color: white;
+        .TelegramIcon {
+          background-color: #5f27cd;
+          font-size: 40px;
+          color: white;
+        }
+        // animation: smoothInfiniteAnimation 1s infinite; /* Adjust duration and iterations as needed */
+      }
+    }
+  }
+}
+
+.services {
+  background-color: #090444;
+  .card {
+    //   transform: scale(0.9);
+    // height: 300px;
+    // width: 300px;
+    img {
+      height: 220px;
+      //   width: 100%;
+      object-fit: cover;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+  }
+}
+.why_to_choose_us {
+  div {
+    color: #090444;
+  }
+  background-color: #090444e9;
+  .card {
+    background-color: #090444;
+    transform: scale(0.9);
+    // height: 300px;
+    // width: 300px;
+    p {
+      color: white;
+      text-align: justify;
+      font-size: 18px;
+    }
+    img {
+      height: 240px;
+      width: 280px;
+      object-fit: cover;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+  }
+}
+.commitment {
+  div {
+    color: #090444;
+  }
+  background-color: #090444;
+  .card {
+    background-color: #2d2869c8;
+    transform: scale(0.9);
+    // height: 300px;
+    // width: 300px;
+    p {
+      color: white;
+      text-align: justify;
+      font-size: 18px;
+    }
+    img {
+      height: 240px;
+      width: 240px;
+      object-fit: cover;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+  }
+}
+.contact {
+  .phoneIcon {
+    color: #5f27cd;
+    font-size: 40px;
+    background-color: white;
+  }
+  background-color: #000a32;
+  .card {
+    background-color: transparent;
+    transform: scale(0.9);
+    // height: 300px;
+    // width: 300px;
+    p {
+      color: white;
+      text-align: justify;
+      font-size: 18px;
+    }
+    img {
+      height: 180px;
+      width: 180px;
+      object-fit: cover;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+  }
+}
+
+.whatsappIcon {
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1100;
+  font-style: italic;
+  // height: 80px;
+  // width: 80px;
+  background-color: #7c25d3; /* WhatsApp green color */
+  // border-radius: 100%;
+  // padding: 15px;
+  // box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+  overflow: hidden;
+  white-space: nowrap; /* Prevent text wrapping */
+  transition: width 1s ease-in-out; /* Smooth transition */
+  cursor: pointer;
+  .TeleIcon {
+    color: #5f27cd;
+    font-size: 50px;
+    background-color: white;
+  }
+ 
+  
+  @media screen and (max-width: 568px) {
+    right: 50%;
+    transform: translate(50%, 0);
+    .msg {
+      // width: 100^;
+      display: block;
+    }
+    &:hover {
+      background-color: #8f2ef0;
+    }
+  }
+  @media screen and (min-width: 569px) {
+    .msg {
+      width: 0px;
+      display: none;
+    }
+    &:hover {
+      transform: scale(1.1);
+      // bottom: 50%;
+  
+      .msg {
+        display: block;
+        animation: increaseWidth linear 1s;
+        width: 100%;
+      }
+    }
+  }
+}
