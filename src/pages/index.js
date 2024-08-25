@@ -115,7 +115,7 @@ export default function Home() {
               <div className={style.imageContainer + "  col-auto d-none  d-sm-flex  p-0 m-0"}>
                 <img className="d-block rounded-pill " src={'/images/logo2.jpg'} alt="..." />
               </div>
-              <h2 className="col-auto text-light px-sm-2 my-auto ">FIRE Investing</h2>
+              <h2 className="col-auto text-light px-sm-2 my-auto h3 ">FIRE Investing</h2>
             </div>
             <div className={style.logo + ` col-auto mt-sm-0 my-auto`}>
               <Button onClick={()=>openNewURL('https://t.me/fireinvestingofficials')} className="text-light px-3 my-auto "><TelegramIcon className="text-light" />Join now</Button>
