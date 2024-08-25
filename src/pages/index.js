@@ -109,16 +109,16 @@ export default function Home() {
             {/* <a className="col-3 navbar-brand text-white text-center bg-info" href="/"><TelegramIcon/>Telegram</a> */}
           </di>
         </nav>
-        <div className={`header ${!isSticky ? style.headerOuter : style.headerFixedOuter} row col-12 py-4 mx-auto`}>
-          <div className={style.headerInner + ` row col-12 col-sm-10 mx-auto d-flex   justify-content-between `}>
+        <div className={`header ${!isSticky ? style.headerOuter : style.headerFixedOuter} row col-12 py-0 mx-auto`}>
+          <div className={style.headerInner + ` row col-12 col-sm-10 m-auto d-flex   justify-content-between `}>
             <div className={style.websiteName + ` col-auto d-flex  `}>
-              <div className={style.imageContainer + "  col-auto d-none d-sm-flex  p-0 m-0"}>
+              <div className={style.imageContainer + "  col-auto d-none  d-sm-flex  p-0 m-0"}>
                 <img className="d-block rounded-pill " src={'/images/logo2.jpg'} alt="..." />
               </div>
-              <h2 className="col-auto text-light px-sm-2 my-auto ">Fire Investing</h2>
+              <h2 className="col-auto text-light px-sm-2 my-auto ">FIRE Investing</h2>
             </div>
             <div className={style.logo + ` col-auto mt-sm-0 my-auto`}>
-              <Button onClick={()=>openNewURL('https://t.me/fireinvestingofficials')} className="text-light px-3 "><TelegramIcon className="text-light" />Join now</Button>
+              <Button onClick={()=>openNewURL('https://t.me/fireinvestingofficials')} className="text-light px-3 my-auto "><TelegramIcon className="text-light" />Join now</Button>
             </div>
           </div>
         </div>
