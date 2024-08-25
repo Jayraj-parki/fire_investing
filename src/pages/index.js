@@ -190,8 +190,8 @@ export default function Home() {
 
           </div>
         </div>
-        <div className={style.headerOuter2 + ` row col-12 py-4 mx-auto`}>
-          <div className={style.headerInner2 + ` row col-sm-10 mx-auto d-flex   justify-content-between `}>
+        <div className={style.headerOuter2 + `  row col-12  p-0 py-1 py-sm-2 m-0 mx-auto`}>
+          <div className={style.headerInner2 + ` row  p-0 col-11 col-sm-10 m-0 mx-auto d-flex   justify-content-between `}>
             <div className={style.websiteName + ` col-auto `}>
               <h3 className="text-light">Daily live stock update on Telegram</h3>
             </div>
@@ -217,8 +217,8 @@ export default function Home() {
 
           </div>
         </div>
-        <div className={style.headerOuter2 + ` row col-12 py-4 mx-auto`}>
-          <div className={style.headerInner2 + ` row col-10 mx-auto d-flex   justify-content-between `}>
+        <div className={style.headerOuter2 + `  row col-12  p-0 py-1 py-sm-2 m-0 mx-auto`}>
+          <div className={style.headerInner2 + ` row  p-0 col-11 col-sm-10 m-0 mx-auto d-flex   justify-content-between `}>
             <div className={style.websiteName + ` col-auto `}>
               <h3 className="text-light">Boost Your Trading Success!</h3>
             </div>
