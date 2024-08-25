@@ -165,7 +165,7 @@ export default function Home() {
                 return <div className={style.card + " col-6 col-sm-5 col-md-4 col-xl-3 col-xxl-2 card p-0 mx-sm-1 my-2"} >
                   <img src={value.image} className="card-img-top" alt="..." />
                   <div className="card-body">
-                    <h5 className="card-text text-center ">{value?.text}</h5>
+                    <h5 className="card-text text-center h4 ">{value?.text}</h5>
                   </div>
                 </div>
               })
