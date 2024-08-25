@@ -254,9 +254,9 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className={style.card + " col-md-4  py-4  my-2"} >
+          <div className={style.card + " col-md-4  py-md-4  my-2"} >
             <h2 className="text-light">Get In Touch</h2>
-            <div className="row col-12 my-3 mt-5 mx-auto p-0 ">
+            <div className="row col-12 my-3 mt-md-5 mx-auto p-0 ">
               <p>Have questions or need assistance? We’re here to help you. Reach out to our us for any inquiries or support you may require.</p>
             </div>
             <div className="row col-12 mx-auto p-0">
@@ -277,7 +277,7 @@ export default function Home() {
           </div>
           <hr className="border-white" />
           <div className="row col-12 mx-auto">
-            <small className=" col-auto mx-auto text-light text-center">Disclaimer: Investing involves risk, including the loss of principal. Past performance does not guarantee future results. Always consult with a financial advisor.</small>
+            <small className={style.disclaimer+" col-auto mx-auto text-light "}>Disclaimer: Investing involves risk, including the loss of principal. Past performance does not guarantee future results. Always consult with a financial advisor.</small>
             <p className=" col-12 mt-2 mx-auto text-light text-center">© 2024 FIRE Investing. All Rights Reserved.  </p>
           </div>
         </div>
