@@ -146,12 +146,12 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className={style.headerOuter2 + ` row col-12 py-4 mx-auto`}>
-          <div className={style.headerInner2 + ` row col-sm-10 mx-auto d-flex   justify-content-between `}>
-            <div className={style.websiteName + ` col-auto `}>
+        <div className={style.headerOuter2 + ` bg-info row col-12 py-4 p-0 m-0 mx-auto`}>
+          <div className={style.headerInner2 + ` row bg-info p-0 col-12 col-sm-10 m-0 mx-auto d-flex   justify-content-between `}>
+            <div className={style.websiteName + ` col-auto p-0 m-0 `}>
               <h3 className="text-light">Join our telegram to make Big Profits</h3>
             </div>
-            <div className={style.logo + ` col-auto mx-auto mx-sm-0`}>
+            <div className={style.logo + ` col-auto mx-auto mx-sm-0 p-0` }>
               <Button onClick={()=>openNewURL('https://t.me/fireinvestingofficials')} className="text-light px-3 "><TelegramIcon className="text-light" />Join now</Button>
             </div>
           </div>
@@ -281,7 +281,7 @@ export default function Home() {
             <p className=" col-12 mt-2 mx-auto text-light text-center">© 2024 FIRE Investing. All Rights Reserved.  </p>
           </div>
         </div>
-        <div className={style.whatsappIcon + " px-2 py-1 rounded-1  d-flex "} >
+        <div onClick={()=>openNewURL('https://t.me/fireinvestingofficials')} className={style.whatsappIcon + " px-2 py-1 rounded-1  d-flex "} >
           <TelegramIcon className={style.TeleIcon + "  m-auto p-1 rounded-pill "}></TelegramIcon>
           <p className={style.msg + " m-auto px-2 h5 text-light  "}>Join Our Free Telegram</p>
         </div>
