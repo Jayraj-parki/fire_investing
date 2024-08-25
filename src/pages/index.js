@@ -134,7 +134,7 @@ export default function Home() {
               <small className="pt-3">Access real-time market breakdown, innovative trading strategis and deep - dive investment analysis. Join our Telegram Channel for free today.</small>
             </div>
             <div className="row mb-auto mx-auto mt-4 mt-xl-0 ">
-              <p className={style.cert + " px-5 py-2 h2 rounded-2 mx-auto col-auto d-flex justify-content-center align-items-center"}><WorkspacePremiumIcon className="p-0  h3 m-0" />NISM Certified</p>
+              <p onClick={()=>openNewURL('https://t.me/fireinvestingofficials')} className={style.cert + " px-5 py-2 h2 rounded-2 mx-auto col-auto d-flex justify-content-center align-items-center"}><WorkspacePremiumIcon className="p-0  h3 m-0" />NISM Certified</p>
             </div>
           </div>
           <div className={style.right + `  col-auto p-3`}>

@@ -33,6 +33,7 @@
 }
 .page {
   button {
+    cursor: pointer;
     transition: all 0.2s ease-in-out;
     &:hover {
       border: 0;
@@ -115,6 +116,7 @@
         font-size: 18px;
         border: 0;
         font-weight: 700;
+        cursor: pointer;
       }
     }
   }
@@ -126,6 +128,7 @@
   color: white;
   .left {
     .cert {
+      cursor: pointer;
       background-color: white;
       color: #010206;
     }
