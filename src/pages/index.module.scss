@@ -62,7 +62,7 @@
 }
 .headerOuter,
 .headerFixedOuter {
-  background-color: #130f40;
+  background-color: #0e0127;
   height: 100px;
   .headerInner {
     font-style: italic;
@@ -121,13 +121,13 @@
 }
 
 .banner {
-  background-color: #090444;
+  background-color: #010206;
   text-align: start;
   color: white;
   .left {
     .cert {
       background-color: white;
-      color: #090444;
+      color: #010206;
     }
   }
   h3 {
@@ -158,12 +158,12 @@
       transform: translateY(-20px);
       button {
         box-shadow: rgb(255, 255, 255) 0px 4px 18px;
-        color: #5f27cd;
+        color: #080311;
         text-transform: capitalize;
         font-size: 18px;
         background-color: white;
         .TelegramIcon {
-          background-color: #5f27cd;
+          background-color: #080311;
           font-size: 40px;
           color: white;
         }
@@ -174,7 +174,7 @@
 }
 
 .services {
-  background-color: #090444;
+  background-color: #010206;
   .card {
       transform: scale(0.98);
     // height: 300px;
@@ -191,11 +191,11 @@
 }
 .why_to_choose_us {
   div {
-    color: #090444;
+    color: #010206;
   }
-  background-color: #090444e9;
+  background-color: #010206e9;
   .card {
-    background-color: #090444;
+    background-color: #010206;
     transform: scale(0.9);
     // height: 300px;
     // width: 300px;
@@ -220,11 +220,11 @@
 }
 .commitment {
   div {
-    color: #090444;
+    color: #010206;
   }
-  background-color: #090444;
+  background-color: #010206;
   .card {
-    background-color: #2d2869c8;
+    background-color: #080311;
     transform: scale(0.9);
     // height: 300px;
     // width: 300px;
@@ -249,11 +249,11 @@
 }
 .contact {
   .phoneIcon {
-    color: #5f27cd;
+    color: #080311;
     font-size: 40px;
     background-color: white;
   }
-  background-color: #000a32;
+  background-color: #010206e9;
   .card {
     background-color: transparent;
     transform: scale(0.9);

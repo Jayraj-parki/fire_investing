@@ -205,7 +205,7 @@ export default function Home() {
           <div className="row col-12 mx-auto d-flex justify-content-around p-md-5">
             {
               commitment.map((value, index) => {
-                return <div className={style.card + " col-sm-6 col-md-6 col-xl-4 col-xxl-4  card p-4  my-2"} >
+                return <div className={style.card + " shadow  border-light col-sm-6 col-md-6 col-xl-4 col-xxl-4  card p-4  my-2"} >
                   <img src={value.image} className="card-img-top mx-auto rounded-2" alt="..." />
                   <div className="card-body">
                     <h3 className="text-center text-light mb-4  ">{value?.title}</h3>
