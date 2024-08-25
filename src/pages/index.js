@@ -127,7 +127,7 @@ export default function Home() {
           <div className={style.left + ` col-sm-10 col-xl-6 p-3  d-flex flex-column `}>
             <div className="mb-auto  text-sm-start">
               <h3 className="h1">Discover new trading horizons with</h3>
-              <h3 className="h3"><span>NISM Certiifed</span> analysts</h3>
+              <h3 className="h3"><span>NISM Certified</span> analysts</h3>
             </div>
             <div className="mb-auto  text-start">
               <p className="h5 pt-4  text-start mb-4 mb-sm-0 ">Join our <span className="text-info">Telegram Channel</span> for execlusive <span className="text-warning">Stock Market</span> expertise</p>
