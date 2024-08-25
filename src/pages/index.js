@@ -105,7 +105,7 @@ export default function Home() {
       <main className={style.page} >
         <nav className={`navbar navbar-expand-lg bg-info ${style.custom_gradient}`}>
           <di className='row col-12 mx-auto pt-2 d-flex  justify-content-evenly flex-col text-center'>
-            <p className="col-12 col-xl-6  text-white text-center p-0 pt-1 "><b>For Accurate Stock Market Tips Join Our Telegram Channel</b></p>
+            <p className="col-12 col-xl-6  text-white text-center p-0 pt-1 "><b>For Accurate Stock Market Guidance Join Our Telegram Channel</b></p>
             {/* <a className="col-3 navbar-brand text-white text-center bg-info" href="/"><TelegramIcon/>Telegram</a> */}
           </di>
         </nav>
