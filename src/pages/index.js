@@ -149,7 +149,7 @@ export default function Home() {
         <div className={style.headerOuter2 + `  row col-12  p-0 py-1 py-sm-2 m-0 mx-auto`}>
           <div className={style.headerInner2 + ` row  p-0 col-11 col-sm-10 m-0 mx-auto d-flex   justify-content-between `}>
             <div className={style.websiteName + ` col-auto p-0 mx-auto mx-md-0 `}>
-              <h3 className="text-light ">Join our Telegram to make Big Profits</h3>
+              <h3 className="text-light text-center">Join our Telegram to make Big Profits</h3>
             </div>
             <div className={style.logo + ` d-none d-md-flex col-auto mx-auto mx-sm-0 p-0` }>
               <Button onClick={()=>openNewURL('https://t.me/fireinvestingofficials')} className="text-light px-3 "><TelegramIcon className="text-light" />Join now</Button>
@@ -193,7 +193,7 @@ export default function Home() {
         <div className={style.headerOuter2 + `  row col-12  p-0 py-1 py-sm-2 m-0 mx-auto`}>
           <div className={style.headerInner2 + ` row  p-0 col-11 col-sm-10 m-0 mx-auto d-flex   justify-content-between `}>
             <div className={style.websiteName + ` col-auto mx-auto mx-md-0 `}>
-              <h3 className="text-light">Daily live stock update on Telegram</h3>
+              <h3 className="text-light text-center">Daily live stock update on Telegram</h3>
             </div>
             <div className={style.logo + ` d-none d-md-flex col-auto mx-auto mx-sm-0 `}>
               <Button onClick={()=>openNewURL('https://t.me/fireinvestingofficials')} className="text-light px-3 "><TelegramIcon className="text-light" />Join now</Button>
