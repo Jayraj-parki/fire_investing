@@ -199,7 +199,7 @@ export default function Home() {
         </div>
         <div className={style.commitment + " row col-12 mx-auto py-5  p-3"}>
           <div className="row col-12 mx-auto text-center text-light"><h1 className="h3 border-bottom col-auto px-5 mx-auto pb-2">Our commitment to you          </h1></div>
-          <div className="row col-12 mx-auto d-flex justify-content-around p-5">
+          <div className="row col-12 mx-auto d-flex justify-content-around p-md-5">
             {
               commitment.map((value, index) => {
                 return <div className={style.card + " col-sm-6 col-md-6 col-xl-4 col-xxl-4  card p-4  my-2"} >
