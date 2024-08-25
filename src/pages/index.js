@@ -50,10 +50,10 @@ export default function Home() {
       "image": '/images/risk_manage.jpg',
       "text": 'Risk Management'
     },
-    {
-      "image": '/images/winning_strategy.jpg',
-      "text": 'Winning Strategy'
-    },
+    // {
+    //   "image": '/images/winning_strategy.jpg',
+    //   "text": 'Winning Strategy'
+    // },
 
   ]
   const why_to_choose_us = [
