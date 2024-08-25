@@ -275,6 +275,26 @@
   }
 }
 
+
+@keyframes movebutton {
+  0% {
+    right: 45%;
+  }
+  25% {
+    right: 55%;
+  }
+  50% {
+    right: 45%;
+  }
+  75% {
+    right: 55%;
+  }
+  100% {
+    right: 45%;
+  }
+
+}
+
 .whatsappIcon {
   cursor: pointer;
   position: fixed;
@@ -310,6 +330,7 @@
     &:hover {
       background-color: #8f2ef0;
     }
+    animation: movebutton infinite 2s;
   }
   @media screen and (min-width: 569px) {
     .msg {
