@@ -130,7 +130,7 @@ export default function Home() {
               <h3 className="h3">with <span>NISM Certiifed</span> analysts</h3>
             </div>
             <div className="mb-auto  text-sm-start">
-              <p className="h5 pt-4  text-sm-start mb-4 mb-sm-0 ">Join out Telegram Channel for execlusive Stock market expertise</p>
+              <p className="h5 pt-4  text-sm-start mb-4 mb-sm-0 ">Join Out Telegram Channel for execlusive Stock Market expertise</p>
               <small className="pt-3">Access real-time market breakdown, innovative trading strategis and deep - dive investment analysis. Join our Telegram Channel for free today</small>
             </div>
             <div className="row mb-auto mx-auto mt-4 mt-xl-0 ">
