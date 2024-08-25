@@ -113,7 +113,7 @@ export default function Home() {
           <div className={style.headerInner + ` row col-12 col-sm-10 m-auto d-flex   justify-content-between `}>
             <div className={style.websiteName + ` col-auto d-flex  `}>
               <div className={style.imageContainer + "  col-auto d-none  d-sm-flex  p-0 m-0"}>
-                <img className="d-block rounded-pill " src={'/images/logo2.jpg'} alt="..." />
+                <img className="d-block rounded-pill " src={'/images/logo.jpg'} alt="..." />
               </div>
               <h2 className="col-auto text-light px-sm-2 my-auto h3 ">FIRE Investing</h2>
             </div>
@@ -231,19 +231,19 @@ export default function Home() {
           <div className={style.card + " col-sm-6 col-md-4 card p-md-4 p-0  my-2 border-0"} >
             <img src={'/images/logo.webp'} className="card-img-top mx-auto rounded-pill p-0" alt="..." />
             <div className="card-body  p-0 m-0">
-              <h3 className="text-center text-light mb-4  p-0">NISM Certified - Learn Before You Invest </h3>
+              <h3 className="text-center text-light mb-4  p-0"><span className="text-warning">NISM Certified </span>- Learn Before You Invest! </h3>
             </div>
           </div>
           <div className={style.card + " col-sm-6 col-md-4  py-4  my-2"} >
             <h2 className="text-light">Contact Information</h2>
             <div className="row col-12 my-3 mt-5 mx-auto p-0 ">
-              <div className="col-auto my-auto p-0">
+              {/* <div className="col-auto my-auto p-0">
                 <PhoneEnabledIcon className={style.phoneIcon + "  mx-2 rounded-pill p-1"}></PhoneEnabledIcon>
               </div>
               <div className="col-auto p-0 m-0">
                 <p className="p-0 m-0">+91 9323382509</p>
                 <p className="p-0 m-0">+91 8879636040</p>
-              </div>
+              </div> */}
             </div>
             <div className="row col-12 mx-auto p-0">
               <div className="col-auto my-auto p-0">
