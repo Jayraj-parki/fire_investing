@@ -283,7 +283,7 @@ export default function Home() {
         </div>
         <div className={style.whatsappIcon + " px-2 py-1 rounded-1  d-flex "} >
           <TelegramIcon className={style.TeleIcon + "  m-auto p-1 rounded-pill "}></TelegramIcon>
-          <p className={style.msg + " m-auto px-2 h5 text-light  "}>Join Telegram for free</p>
+          <p className={style.msg + " m-auto px-2 h5 text-light  "}>Join Our Free Telegram</p>
         </div>
       </main>
     </>

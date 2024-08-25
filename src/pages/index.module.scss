@@ -158,14 +158,14 @@
       transform: translateY(-20px);
       button {
         box-shadow: rgb(255, 255, 255) 0px 4px 18px;
-        color: #080311;
+        color: #ffffff;
         text-transform: capitalize;
         font-size: 18px;
-        background-color: white;
+        background-color: rgb(1, 140, 255);;
         .TelegramIcon {
-          background-color: #080311;
+          background-color: rgb(255, 255, 255); ;
           font-size: 40px;
-          color: white;
+          color: rgb(1, 140, 255);;
         }
         animation: smoothInfiniteAnimation 1s infinite; /* Adjust duration and iterations as needed */
       }
@@ -301,7 +301,7 @@
   bottom: 20px;
   right: 20px;
   z-index: 1100;
-  font-family: 'Times New Roman', Times, serif;
+  // font-family: 'Times New Roman', Times, serif;
   // font-style: italic;
   // height: 80px;
   // width: 80px;
