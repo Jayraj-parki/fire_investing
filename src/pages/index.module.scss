@@ -125,6 +125,31 @@
   }
 }
 
+@keyframes moveXaxisbutton {
+  0% {
+    transform:translateX(20px) ;
+  }
+  15% {
+    transform:translateX(-20px) ;
+  }
+  30% {
+    transform:translateX(20px) ;
+  }
+  45% {
+    transform:translateX(-20px) ;
+  }
+  60% {
+    transform:translateX(20px) ;
+  }
+  75% {
+    transform:translateX(-20px) ;
+  }
+  100% {
+    transform:translateX(20px) ;
+  }
+
+}
+
 .banner {
   background-color: #010206;
   text-align: start;
@@ -132,7 +157,7 @@
   .left {
     
     .telegram {
-     
+      animation: moveXaxisbutton infinite 2s;
       button {
         // box-shadow: rgb(255, 255, 255) 0px 4px 18px;
         color: #ffffff;
