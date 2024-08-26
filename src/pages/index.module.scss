@@ -356,7 +356,7 @@
   cursor: pointer;
   .TeleIcon {
     color: rgb(1, 140, 255);
-    font-size: 50px;
+    font-size: 35px;
     background-color: white;
   }
 
@@ -376,6 +376,11 @@
     .msg {
       width: 0px;
       display: none;
+    }
+    .TeleIcon {
+      color: rgb(1, 140, 255);
+      font-size: 45px;
+      background-color: white;
     }
     &:hover {
       transform: scale(1.1);
