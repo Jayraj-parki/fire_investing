@@ -133,7 +133,7 @@ export default function Home() {
               <p className="h5 pt-4  text-start mb-4 mb-sm-0 ">Join our <span className="text-info">Telegram Channel</span> for execlusive <span className="text-warning">Stock Market</span> expertise</p>
               <small className="pt-3">Access real-time market breakdown, innovative trading strategis and deep - dive investment analysis. Join our Telegram Channel for free today.</small>
             </div>
-            <div className={style.telegram + ` col-auto  d-flex   mx-auto`}>
+            <div className={style.telegram + ` row mb-auto mx-auto mt-4 mt-xl-0`}>
               <Button onClick={()=>openNewURL('https://t.me/fireinvestingofficials')} className=" col-auto   px-3 mx-auto"><TelegramIcon className={style.TelegramIcon + "  mx-2 rounded-pill p-1"} /> Join our free Telegram</Button>
             </div>
             
