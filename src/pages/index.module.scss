@@ -130,10 +130,22 @@
   text-align: start;
   color: white;
   .left {
-    .cert {
-      cursor: pointer;
-      background-color: white;
-      color: #010206;
+    
+    .telegram {
+      transform: translateY(-20px);
+      button {
+        box-shadow: rgb(255, 255, 255) 0px 4px 18px;
+        color: #ffffff;
+        text-transform: capitalize;
+        font-size: 18px;
+        background-color: rgb(1, 140, 255);;
+        .TelegramIcon {
+          background-color: rgb(255, 255, 255); ;
+          font-size: 40px;
+          color: rgb(1, 140, 255);;
+        }
+        animation: smoothInfiniteAnimation 1s infinite; /* Adjust duration and iterations as needed */
+      }
     }
   }
   h3 {
@@ -161,21 +173,10 @@
     }
   }
   .right {
-    .telegram {
-      transform: translateY(-20px);
-      button {
-        box-shadow: rgb(255, 255, 255) 0px 4px 18px;
-        color: #ffffff;
-        text-transform: capitalize;
-        font-size: 18px;
-        background-color: rgb(1, 140, 255);;
-        .TelegramIcon {
-          background-color: rgb(255, 255, 255); ;
-          font-size: 40px;
-          color: rgb(1, 140, 255);;
-        }
-        animation: smoothInfiniteAnimation 1s infinite; /* Adjust duration and iterations as needed */
-      }
+    .cert {
+      cursor: pointer;
+      background-color: white;
+      color: #010206;
     }
   }
 }
