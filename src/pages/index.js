@@ -282,7 +282,7 @@ export default function Home() {
             <p className=" col-12 mt-2 mx-auto text-light text-center">© 2024 FIRE Investing. All Rights Reserved.  </p>
           </div>
         </div>
-        <div onClick={()=>openNewURL('https://t.me/fireinvestingofficials')} className={style.whatsappIcon + "  px-5 py-1 rounded-1  d-flex "} >
+        <div onClick={()=>openNewURL('https://t.me/fireinvestingofficials')} className={style.whatsappIcon + "  px-4 py-1 rounded-1  d-flex "} >
           <TelegramIcon className={style.TeleIcon + "  m-auto p-1 rounded-pill "}></TelegramIcon>
           <p className={style.msg + " m-auto px-2 h5 text-light  "}>Join Our Free Telegram</p>
         </div>
