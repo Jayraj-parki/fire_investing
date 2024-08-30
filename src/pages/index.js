@@ -203,7 +203,7 @@ export default function Home() {
               <img className="d-block rounded-5 " src={'/images/logo.webp'} alt="..." />
             </div>
             <div className="row mb-auto mx-auto mt-4 mt-xl-0 ">
-              <p onClick={()=>openNewURL('https://t.me/fireinvestingofficials')} className={style.cert + " px-5 py-2 h2 rounded-2 mx-auto col-auto d-flex justify-content-center align-items-center"}><WorkspacePremiumIcon className="p-0  h3 m-0" />NISM Certified</p>
+              <p onClick={()=>openNewURL('https://t.me/fireinvestingofficials')} className={style.cert + " px-5 py-2 h2 rounded-2 mx-auto col-auto d-flex justify-content-center align-items-center"}><WorkspacePremiumIcon className="p-0  h3 m-0" />NISM Certified </p>
             </div>
           </div>
         </div>
@@ -334,7 +334,7 @@ export default function Home() {
                 <YouTubeIcon  onClick={()=>openNewURL()} className={style.phoneIcon + "  bg-danger text-white mx-2 rounded-pill p-1"}></YouTubeIcon>
               </div>
               <div className="col-auto my-auto p-0">
-                <WhatsAppIcon  onClick={()=>openNewURL()} className={style.phoneIcon + "  bg-success text-white mx-2 rounded-pill p-1"}></WhatsAppIcon>
+                <WhatsAppIcon  onClick={()=>openNewURL('https://www.whatsapp.com/channel/0029Van1QDXF6sn2KFzDRv23')} className={style.phoneIcon + "  bg-success text-white mx-2 rounded-pill p-1"}></WhatsAppIcon>
               </div>
 
             </div>
