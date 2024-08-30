@@ -33,7 +33,7 @@ export default function Home() {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
-  const data = [
+  const data_old = [
     {
       "image": '/images/stock_analysis.jpg',
       "text": 'Stock Analysis'
@@ -56,7 +56,30 @@ export default function Home() {
     // },
 
   ]
-  const why_to_choose_us = [
+  const data = [
+    {
+      "image": '/new_images/stock analysis.png',
+      "text": 'Stock Analysis'
+    },
+    {
+      "image": '/new_images/Index Option.png',
+      "text": 'Index Option'
+    },
+    {
+      "image": '/new_images/Stock Option.png',
+      "text": 'Stock Option'
+    },
+    {
+      "image": '/new_images/Risk Management.png',
+      "text": 'Risk Management'
+    },
+    // {
+    //   "image": '/images/winning_strategy.jpg',
+    //   "text": 'Winning Strategy'
+    // },
+
+  ]
+  const why_to_choose_us_old = [
     {
       "image": '/images/expertise.jpg',
       "text": 'Expertise Our team consists of experienced traders and financial experts who bring their knowledge and insights to the table'
@@ -72,7 +95,43 @@ export default function Home() {
 
 
   ]
+  const why_to_choose_us = [
+    {
+      "image": '/new_images/Expertise.png',
+      "text": 'Expertise Our team consists of experienced traders and financial experts who bring their knowledge and insights to the table'
+    },
+    {
+      "image": '/new_images/One to One.png',
+      "text": 'A one-on-one live stock market class, so that everything is clear to the student and they can ask their doubts without any struggle'
+    },
+    {
+      "image": '/new_images/Doubt.png',
+      "text": "If you have any doubts in the future about strategies or anything related to the stock market, feel free to contact us anytime via WhatsApp. We'll be happy to help. You can also ask about any stocks you're dealing with."
+    }
+
+
+  ]
   const commitment = [
+    {
+      "image": '/new_images/Market Analysis.png',
+      "title": 'Market Analysis',
+      "text": "We believe that knowledge is power. Our comprehensive educational resources cater to traders of all levels, from novice to expert."
+    },
+    {
+      "image": '/new_images/Stretagy Planning.png',
+      "title": 'Strategy Planning',
+      "text": "Once you've finished conducting market analysis, the subsequent phase involves crafting and formulating your stock strategies."
+    },
+    {
+      "image": '/new_images/Execution & Evaluation.png',
+      "title": "Execution & Evaluation",
+      "text": "During this phase, our primary emphasis will be on implementing the stock plan and assessing the outcomes daily after the market closes."
+    }
+
+
+  ]
+
+  const commitment_old = [
     {
       "image": '/images/market_annalysis.jpg',
       "title": 'Market Analysis',
@@ -257,7 +316,7 @@ export default function Home() {
           </div>
           <div className={style.card + " col-md-4  py-md-4  my-2"} >
             <h2 className="text-light">Get In Touch</h2>
-            <div className="row col-12 my-3 mt-md-5 mx-auto p-0 ">
+            <div className="row col-12 my-3 mt-md-2 mx-auto p-0 ">
               <p>Have questions or need assistance? We’re here to help you. Reach out to our us for any inquiries or support you may require.</p>
             </div>
             <div className="row col-12 mx-auto p-0">

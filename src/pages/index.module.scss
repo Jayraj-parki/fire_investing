@@ -215,6 +215,10 @@
     // width: 300px;
     img {
       height: 120px;
+      @media screen and (min-width: 568px) {
+        height: 160px;
+       
+      }
       //   width: 100%;
       object-fit: cover;
       background-size: cover;
