@@ -8,6 +8,7 @@ import YouTubeIcon from '@mui/icons-material/YouTube';
 import FacebookRoundedIcon from '@mui/icons-material/FacebookRounded';
 import EmailIcon from '@mui/icons-material/Email';
 import PhoneEnabledIcon from '@mui/icons-material/PhoneEnabled';
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import WorkspacePremiumIcon from '@mui/icons-material/WorkspacePremium';
 import { useEffect, useState } from "react";
 export default function Home() {
@@ -321,16 +322,19 @@ export default function Home() {
             </div>
             <div className="row col-12 mx-auto p-0">
               <div className="col-auto my-auto p-0">
-                <TelegramIcon onClick={()=>openNewURL('https://t.me/fireinvestingofficials')} className={style.phoneIcon + "  mx-2 rounded-pill p-1"}></TelegramIcon>
+                <TelegramIcon onClick={()=>openNewURL('https://t.me/fireinvestingofficials')} className={style.phoneIcon + "  mx-2 bg-info text-white rounded-pill p-1"}></TelegramIcon>
               </div>
               <div className="col-auto my-auto p-0">
-                <InstagramIcon onClick={()=>openNewURL('https://www.instagram.com/fire_investing_official?igsh=dDB1YTI0cm94NWcw')} className={style.phoneIcon + "  mx-2 rounded-pill p-1"}></InstagramIcon>
+                <InstagramIcon onClick={()=>openNewURL('https://www.instagram.com/fire_investing_official?igsh=dDB1YTI0cm94NWcw')} className={style.phoneIcon + " bg-danger text-white mx-2 rounded-pill p-1"}></InstagramIcon>
               </div>
               <div className="col-auto my-auto p-0">
-                <FacebookRoundedIcon onClick={()=>openNewURL('https://www.facebook.com/people/FIRE-Investing-Offical/61563773790848/?mibextid=ZbWKwL')}  className={style.phoneIcon + "  mx-2 rounded-pill p-1"}></FacebookRoundedIcon>
+                <FacebookRoundedIcon onClick={()=>openNewURL('https://www.facebook.com/people/FIRE-Investing-Offical/61563773790848/?mibextid=ZbWKwL')}  className={style.phoneIcon + " bg-primary text-white mx-2 rounded-pill p-1"}></FacebookRoundedIcon>
               </div>
               <div className="col-auto my-auto p-0">
-                <YouTubeIcon onClick={()=>openNewURL()} className={style.phoneIcon + "  mx-2 rounded-pill p-1"}></YouTubeIcon>
+                <YouTubeIcon  onClick={()=>openNewURL()} className={style.phoneIcon + "  bg-danger text-white mx-2 rounded-pill p-1"}></YouTubeIcon>
+              </div>
+              <div className="col-auto my-auto p-0">
+                <WhatsAppIcon  onClick={()=>openNewURL()} className={style.phoneIcon + "  bg-success text-white mx-2 rounded-pill p-1"}></WhatsAppIcon>
               </div>
 
             </div>
