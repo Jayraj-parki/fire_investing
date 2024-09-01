@@ -1,12 +1,18 @@
+// utils/facebookPixel.js
+
 import ReactPixel from 'react-facebook-pixel';
 
-const pixelId = '1040661307798437'; 
+const pixelId = '1040661307798437'; // Replace with your Facebook Pixel ID
 
 export const initFacebookPixel = () => {
-  ReactPixel.init(pixelId);
-  ReactPixel.pageView(); 
+    if (typeof window !== 'undefined') { // Ensure it's in the browser
+        ReactPixel.init(pixelId);
+        ReactPixel.pageView(); // To track page views
+      }
 };
 
 export const trackCustomEvent = (eventName, eventParams) => {
-  ReactPixel.trackCustom(eventName, eventParams);
+    if (typeof window !== 'undefined') { // Ensure it's in the browser
+        ReactPixel.trackCustom(eventName, eventParams);
+      }
 };
