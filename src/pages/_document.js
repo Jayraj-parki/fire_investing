@@ -5,6 +5,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head />
+      <title>fire_investing_official</title>
       <body>
         <Main />
         <NextScript />
