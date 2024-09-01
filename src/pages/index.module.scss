@@ -293,6 +293,7 @@
 }
 .contact {
   .phoneIcon {
+    cursor: pointer;
     color: #080311;
     font-size: 40px;
     background-color: white;
@@ -340,11 +341,13 @@
 }
 
 .whatsappIcon {
+  background-color: rgb(0, 140, 255); /* WhatsApp green color */
   cursor: pointer;
   position: fixed;
   bottom: 20px;
   right: 20px;
   z-index: 1100;
+  text-transform: capitalize;
   // font-family: 'Times New Roman', Times, serif;
   // font-style: italic;
   // height: 80px;
@@ -389,7 +392,7 @@
     &:hover {
       transform: scale(1.1);
       // bottom: 50%;
-
+      background-color: rgb(0, 140, 255);
       .msg {
         display: block;
         animation: increaseWidth linear 1s;
