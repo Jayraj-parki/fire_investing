@@ -9,9 +9,9 @@ export default function App({ Component, pageProps }) {
   useEffect(() => {
     initFacebookPixel(); // Initialize Facebook Pixel
 
-    const handleRouteChange = () => {
-      window.fbq('track', 'PageView'); // Track page views
-    };
+    // const handleRouteChange = () => {
+    //   window.fbq('track', 'PageView'); // Track page views
+    // };
     router.events.on('routeChangeComplete', handleRouteChange);
     return () => {
       router.events.off('routeChangeComplete', handleRouteChange);
